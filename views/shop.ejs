@@ -1,17 +1,17 @@
 <%- include('includes/head.ejs') %>
-  </head>
+</head>
 
-  <body>
-<%- include('includes/navigation.ejs') %>
+<body>
+     <%- include('includes/navigation.ejs') %>
    
 
     <main>
-      <% if (prods.length > 0) {%>
+      <% if (hasProduct) {%>
       <div class="grid">
         <% for(let i=0;i<prods.length;i++){%>
             <article class="card product-item">
             <header class="card__header">
-                <h1 class="product__title"><%= prods[i].title %></h1>
+                <h1 class="product__title"><%= prods[i].item %></h1>
             </header>
             <div class="card__image">
                 <img
@@ -36,5 +36,5 @@
       <h1>No product</h1>
       <% } %>
     </main>
-    <%- include('includes/end.ejs') %>
+<%- include('includes/end.ejs') %>
 

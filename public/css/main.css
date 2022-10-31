@@ -67,7 +67,6 @@ main {
 
 .card__image img {
   width: 100%;
-  height: 50%;
 }
 
 .card__actions {
@@ -81,7 +80,7 @@ main {
 }
 
 .product-item {
-  width: 20rem;
+  width: 15rem;
   max-width: 95%;
 }
 
