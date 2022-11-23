@@ -11,6 +11,11 @@
 .form-control input {
   display: block;
 }
+.form-control textarea {
+  /* display: block; */
+  width: 30rem;
+  margin-bottom: 0.25rem;
+}
 .form-control input {
   border: 1px solid rgb(3, 156, 156);
   font: inherit;

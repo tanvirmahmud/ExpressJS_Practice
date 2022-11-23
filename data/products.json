@@ -1,1 +1,16 @@
-[{"item":"Book 1"}]
+[
+  {
+    "id": "879831",
+    "title": "  Science  ",
+    "imageUrl": "  https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png  ",
+    "price": " 12.9 ",
+    "description": "  Awesome book for everyone..."
+  },
+  {
+    "id": "0.3082136104842692",
+    "title": "Story Book",
+    "imageUrl": "https://thumbs.dreamstime.com/z/old-books-13505478.jpg",
+    "price": " 11.99",
+    "description": "Adventure story book."
+  }
+]
